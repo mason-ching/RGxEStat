@@ -127,7 +127,7 @@ The RGxEStat has been packaged as a standalone desktop application using Electro
 
 **Note:** 
 -   Currently, only Windows systems are supported. For any questions or issues, feel free to contact [mengenching\@gmail.com](mailto:mengenching@gmail.com).
--   Use YR, LC, CLT and RP as the column names of years, locations, cultivars(genotypes) and replications in your data file.
+-   Use YR, LC, CLT and RP as the column names of years, locations, cultivars (genotypes) and replications in your data file.
 
 ------------------------------------------------------------------------
 
