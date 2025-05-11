@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge

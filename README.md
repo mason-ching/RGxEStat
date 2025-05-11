@@ -50,7 +50,7 @@ Select your dataset and trait, then choose one of five different cases to perfor
 
 Results include the ANOSI tables of random and fixed effects and BLUP estimates for each genotype.
 
-<img src="file/anosi.png" alt="Significance Analyzer" style="zoom: 67%;"/>
+<img src="files/anosi.png" alt="Significance Analyzer" style="zoom: 67%;"/>
 
 ------------------------------------------------------------------------
 
@@ -72,7 +72,7 @@ Click **Execute** or **Compute** under each section to update the results table 
 
 When the mean of all genotypes are equal, then the F ratio will be close to 1. If analysis of variance is run by location, then high genotype F ratio indicates high discriminating ability for that location. High and significant Pearson correlation of each location with the mean of all locations indicates strong representation of mean location performance.
 
-<img src="file/univariate_1.png" alt="Univariate Stability (Location &amp; Environment)" style="zoom: 45%;"/>
+<img src="files/univariate_1.png" alt="Univariate Stability (Location &amp; Environment)" style="zoom: 45%;"/>
 
 ### 2.3 Cluster analysis & Export results
 
@@ -82,7 +82,7 @@ When the mean of all genotypes are equal, then the F ratio will be close to 1. I
     -   Select file format: `csv`, `txt`, `xlsx`, `doc`
     -   Click **Export** to download
 
-<img src="file/univariate_2.png" alt="Cluster Analysis &amp; Export" style="zoom: 67%;"/>
+<img src="files/univariate_2.png" alt="Cluster Analysis &amp; Export" style="zoom: 67%;"/>
 
 ------------------------------------------------------------------------
 
@@ -90,17 +90,17 @@ When the mean of all genotypes are equal, then the F ratio will be close to 1. I
 
 ### 3.1 Additive main effect and multiplicative interaction
 
-<img src="file/ammi.png" alt="ammi formulation" style="zoom: 67%;"/>
+<img src="files/ammi.png" alt="ammi formulation" style="zoom: 67%;"/>
 
 -   Select principal components (PC1, PC2, PC3, PC4) and render a biplot or triplot
 
 ### 3.2 Gene main effect plus gene-environment interaction effect
 
-<img src="file/gge.png" alt="gge formulation" style="zoom: 67%;"/>
+<img src="files/gge.png" alt="gge formulation" style="zoom: 67%;"/>
 
 -   Interactive window for model selection and various biplot explorations
 
-<img src="file/multivariate.png" alt="Multivariate Stability Analyzer" style="zoom: 50%;"/>
+<img src="files/multivariate.png" alt="Multivariate Stability Analyzer" style="zoom: 50%;"/>
 
 ------------------------------------------------------------------------
 
