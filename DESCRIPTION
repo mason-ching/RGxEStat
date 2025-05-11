@@ -1,0 +1,35 @@
+Package: RGxEStat
+Type: Package
+Title: Provides GUI for Genotype-Environment Interaction Statistical Analysis
+Version: 1.0-0
+Authors@R: 
+    person(given = "Meng'en",
+           family = "Qin",
+           role = c("aut", "cre"),
+           email = "mengenching@gmail.com")
+Description:An R GUI Package for Genotype and Environment Interaction Statistical Analysis. It incorporates analysis of significance based on mixed effect model; univariate stability statistics including group regression slope and deviation, Shukla's σ², Wricke's ecovalence, Kang's yield stability and so on; multivariate stability analysis by ANOVA, PCA, and SVD.
+License:Meng'en Qin
+Imports: 
+    config (>= 0.3.2),
+    golem (>= 0.4.1),
+    shiny (>= 1.7.5.1),
+    shinyBS (>= 0.61.1),
+    lme4,
+    afex,
+    purrr,
+    agricolae(<= 1.3-6),
+    broom,
+    dplyr,
+    forestmangr,
+    GGEBiplotGUI,
+    plotly,
+    writexl,
+    tidyr,
+    sqldf,
+    readxl,
+    tibble
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+URL: https://github.com/mason-ching/RGxEStat
+BugReports: https://github.com/mason-ching/RGxEStat/issues
