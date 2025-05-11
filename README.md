@@ -22,7 +22,7 @@ install.packages("RGxEStat")
 or from GitHub:
 
 ``` r
-devtools::install_github("mason-ching/RGxEStat@master")
+devtools::install_github("mason-ching/RGxEStat@main")
 ```
 
 ------------------------------------------------------------------------
