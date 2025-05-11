@@ -125,8 +125,9 @@ See [NEWS.md](NEWS.md) for the full changelog.
 
 The RGxEStat has been packaged as a standalone desktop application using Electron. You **do not** need to install R or any R packages to run it. Just simply download the release from: [Google Drive](https://drive.google.com/file/d/1AvK8B6NXodgGHv2K6t7tHX0olEem_3n_/view?usp=sharing), unzip it, and double-click `RGxEStat.exe` to launch the application.
 
-**Note:** Currently, only Windows systems are supported. For any questions or issues, feel free to contact: [mengenching\@gmail.com](mailto:mengenching@gmail.com).
-
+**Note:** 
+-   Currently, only Windows systems are supported. For any questions or issues, feel free to contact [mengenching\@gmail.com](mailto:mengenching@gmail.com).
+-   Use YR, LC, CLT and RP as the column names of years, locations, cultivars(genotypes) and replications in your data file.
 ------------------------------------------------------------------------
 
 ## 📄 License
