@@ -22,6 +22,9 @@ install.packages("RGxEStat")
 or from GitHub:
 
 ``` r
+if (!requireNamespace("devtools", quietly = TRUE)) {
+  install.packages("devtools")
+}
 devtools::install_github("mason-ching/RGxEStat@main")
 ```
 
@@ -133,4 +136,4 @@ The RGxEStat has been packaged as a standalone desktop application using Electro
 
 ## 📄 License
 
-The project and application are licensed under the [MIT License](LICENSE) and developed as part of my undergraduate thesis work at Henan University.
+The project and application are licensed under the [MIT License](LICENSE).
