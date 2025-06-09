@@ -16,7 +16,10 @@ RGxEStat is an R/Shiny package, providing a user-friendly web interface for perf
 Install the released version from CRAN:
 
 ``` r
-install.packages("RGxEStat")
+if (getRversion() <= "4.4.0") {
+  install.packages("RGxEStat")
+} else {
+  message("Detected R > 4.4.0. Manually installing dependencies and RGxEStat from GitHub.")
 ```
 
 or from GitHub:
@@ -25,7 +28,15 @@ or from GitHub:
 if (!requireNamespace("devtools", quietly = TRUE)) {
   install.packages("devtools")
 }
-devtools::install_github("mason-ching/RGxEStat@main")
+
+if (getRversion() <= "4.4.0") {
+  devtools::install_github("mason-ching/RGxEStat@main")
+} else {
+  devtools::install_github("cran/GGEBiplotGUI@master")
+  install.packages("klaR")
+  install.packages("https://cran.r-project.org/src/contrib/Archive/agricolae/agricolae_1.3-6.tar.gz", repos = NULL, type = "source")
+  devtools::install_github("mason-ching/RGxEStat@main")
+}
 ```
 
 ------------------------------------------------------------------------
