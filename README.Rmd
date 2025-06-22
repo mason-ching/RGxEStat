@@ -19,7 +19,7 @@ Install the released version from CRAN:
 if (getRversion() <= "4.4.0") {
   install.packages("RGxEStat")
 } else {
-  message("Detected R > 4.4.0. Manually installing dependencies and RGxEStat from GitHub.")
+  message("Detected R > 4.4.0. Manually install dependencies and RGxEStat from GitHub.")
 ```
 
 or from GitHub:
